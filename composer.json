@@ -14,8 +14,8 @@
     ],
     "authors": [
         {
-            "name": "Mostafa Ghoneimy",
-            "email": "emostafagh@gmail.com"
+            "name": "Linh Pham",
+            "email": "phamlinh0208@gmail.com"
         }
     ],
     "autoload": {
@@ -45,7 +45,6 @@
     "scripts": {
         "test": "phpunit tests/ --whitelist src/ --coverage-clover build/coverage/xml"
     },
-    "suggest": {
-        "gmostafa/php-graphql-oqm": "To have object-to-query mapping support"
-    }
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
